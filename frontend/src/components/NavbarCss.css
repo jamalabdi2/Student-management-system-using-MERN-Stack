@@ -1,0 +1,15 @@
+.nav{
+    background-color: #05386B;
+    color:#EDF5E1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+.nav-link{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-right: auto;
+    
+}

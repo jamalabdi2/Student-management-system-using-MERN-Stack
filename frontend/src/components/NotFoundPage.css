@@ -1,0 +1,34 @@
+.not-found-container {
+    background-color: #5cdb95;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .not-found-title {
+    color: #05386b;
+  }
+  
+  .not-found-message {
+    color: #05386b;
+  }
+  
+  .not-found-button {
+    background-color: #05386b;
+    color: #edf5e1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.url{
+    color: #edf5e1;
+    font-weight: bold;
+    font-size: 20px;
+}

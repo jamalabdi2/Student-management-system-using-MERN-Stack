@@ -1,0 +1,83 @@
+
+.container{
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #5CDB95;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #05386B;
+  font-weight: bold;
+}
+
+.container-sm{
+  width: 35%;
+
+}
+.registerForm{
+
+  display: flex;
+  background-color: #EDF5E1;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: 70vh;
+  gap: 20px;
+
+  border: 2px solid;
+  border-radius:10px ;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.formElement{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+input{
+  color: #05386B;
+  padding: 3px;
+}
+
+.loginForm{
+  display: flex;
+  background-color: #EDF5E1;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: 30vh;
+  gap: 20px;
+
+  border: 2px solid;
+  border-radius:10px ;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.verification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 0.6rem;
+  color: #05386B;
+  font-weight: bold;
+  font-size:x-large;
+}
+
+
+.verification p {
+  text-align: center; 
+}
+.homepage{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  
+}

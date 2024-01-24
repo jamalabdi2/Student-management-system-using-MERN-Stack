@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #5CDB95;
+  color:#EDF5E1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn{
+  background-color: #05386B;
+  font-weight: bold;
+  border-radius: 50px;
+  color:#EDF5E1;
+  
+}
+.btn:hover{
+  background-color:#EDF5E1;
+  color: #5CDB95;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+  text-transform: capitalize;
+  font-weight: bold; /* Equivalent to font-bold */
+  padding-top: 1.25rem; /* Equivalent to py-20 */
+  padding-bottom: 1.25rem;
+  text-align: center; /* Equivalent to py-20 */
+}
+
+
+
+
